@@ -1,9 +1,9 @@
 # Table of Contents
 [Introduction](#Introduction)
-[SOAP overview](#SOAP_overview)
-[SOAP example use case](##SOAP_example_use_case)
-[REST overview](#REST_overview)
-[REST example use case](#REST_example_use_case)
+[SOAP overview](#SOAP-overview)
+[SOAP example use case](##SOAP-example-use-case)
+[REST overview](#REST-overview)
+[REST example use case](#REST-example-use-case)
 [Summary](#Summary)
 [Sources](#Sources)
 
