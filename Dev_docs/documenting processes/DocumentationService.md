@@ -1,27 +1,27 @@
 # Introduction
 
-This document is intended for Technical Writers at **XXX**. It outlines the documentation development process. The document contains information on the following aspects of that process:
-
-- Repository structure
-- Branches
-- Builds and pipelines
+This document is intended for Technical Writers at **XXX**. Documentation development in **XXX** is closely aligned with software development. Therefore, most processes regarding documentation development mirror the software development processes. Technical Writers support development teams by producing end-user documentation to the new features and enhancements, and by documenting bug fixes and known issues.
 
 The main documentation product is the *OnlineHelp* delivered as part of the application. Users access the *OnlineHelp* by clicking the Help icon located in the upper right-hand corner of each application window.
 
 The *OnlineHelp* is a set of HTML and  CSS files. 
 
-Documentation development in **XXX** is closely aligned with software development. Therefore, most processes regarding documentation development mirror the software development processes. Technical Writers support development teams by producing end-user documentation to the new features and enhancements, and by documenting bug fixes and known issues.
+This document outlines the documentation development process. It contains information on the following aspects of that process:
 
-## Repository structure 
+- Repository structure
+- Branches
+- Builds and pipelines
 
-The OnlineHelp repository is a git reposity located under this link: xxxxxxx. It includes the following folders:
+# Repository structure 
+
+The *OnlineHelp* repository is a git reposity located under this link: xxxxxxx. It includes the following folders:
 
 - The **OnlineHelp documentation** folders containing the HTML and CSS files. Technical Writers edit these files in a dedicated WYSWIG editor.
 - The **Translation** folders. This folder is used by the translation team to store translations of the OnlineHelp. 
 - the **DevOps** folders with
 
 
-## Branches
+# Branches
 
 The OnlineHelp repository contains the following branches:
 
@@ -31,6 +31,6 @@ The OnlineHelp repository contains the following branches:
 - hotfix
 - master
 
-## Builds and pipelines
+# Builds and pipelines
 
 There are two pipelines 
