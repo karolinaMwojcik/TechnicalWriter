@@ -1,3 +1,13 @@
+# Table of Contents
+[Introduction](#Introduction)
+[SOAP overview](#SOAP_overview)
+[SOAP example use case](##SOAP_example_use_case)
+[REST overview](#REST_overview)
+[REST example use case](#REST_example_use_case)
+[Summary](#Summary)
+[Sources](#Sources)
+
+
 # Introduction
 
 SOAP and REST are two different methods of exchanging information between applications. Both enable web services to transfer data over a network. Both can use HTTP as their transport protocol, and XML as the message format. However, there are important distinctions between SOAP and REST, and while it is impractical to compare them directly, each will work best in different settings.
