@@ -12,7 +12,7 @@
 
 SOAP and REST are two different methods of exchanging information between applications. Both enable web services to transfer data over a network. Both can use HTTP as their transport protocol, and XML as the message format. However, there are important distinctions between SOAP and REST, and while it is impractical to compare them directly, each will work best in different settings.
 
-# SOAP
+# SOAP overview
 
 SOAP, the older of the two, is a fully standardized *messaging protocol* with the following characteristics:
 
@@ -32,7 +32,7 @@ SOAP, the older of the two, is a fully standardized *messaging protocol* with th
 
 Web services utilizing SOAP are most commonly found in enterprise environments. SOAP is the preferred choice for example, in bank transfers. Communication between two banks is highly formalized due to security reasons related to the confidentiality of banking data, and the rules governing interactions between the banks do not change very often. Additionally, each bank transfer is composed of multiple operations, so SOAP’s ability to support stateful operations comes in handy. For banks, SOAP’s reliability, rigidity and security outweigh gains in bandwidth and optimized use of resources that come with REST.
 
-# REST
+# REST overview
 
 REST, unlike SOAP, is not a messaging protocol but an *architectural style* which prefers convention over formal specification. REST was designed for Internet-scale usage with emphasis on:
 
