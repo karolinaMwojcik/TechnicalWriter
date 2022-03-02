@@ -1,22 +1,22 @@
 # Introduction
 
-SOAP and REST are different methods of exchanging information between applications. Both enable web services to transfer data over a network. Both can use HTTP as their transport protocol, and XML as the message format. However, there are important distinctions between SOAP and REST, and while it is impractical to compare them directly, each will work best in different settings.
+SOAP and REST are two different methods of exchanging information between applications. Both enable web services to transfer data over a network. Both can use HTTP as their transport protocol, and XML as the message format. However, there are important distinctions between SOAP and REST, and while it is impractical to compare them directly, each will work best in different settings.
 
 # SOAP
 
 SOAP, the older of the two, is a fully standardized *messaging protocol* with the following characteristics:
 
-- **Exclusive use of XML** as the messaging format. SOAP defines the exact structure for its XML messages. An often-reported downside of using a standardized XML is its verbosity, which results in slow parsing speed and user-perceived latency.
+- **Exclusive use of XML** as the messaging format. SOAP defines the exact structure for its XML message. An often-reported downside of using a standardized XML is its verbosity, which results in slow parsing speed and user-perceived latency.
 
 - Can use almost **any transport protocol**: HTTP, SMTP, JMS.
 
--  If used with SMPT, SOAP can easily support asynchronous communication  for time-consuming operations. Since SMTP is asynchronous by nature, the web service making the call (the caller) can execute other operations while the reponding web service is generating the response. The response will be delivered to the caller immediately after it has been generated. SMTP also has build-in retry and delivery notification systems.
-
+    -  If used with SMPT, SOAP can easily support asynchronous communication  for time-consuming operations. Since SMTP is asynchronous by nature, the web service making the call (the caller) can execute other operations while the responding web service is generating the response. The response will be delivered to the caller immediately after it has been generated. SMTP also has built-in retry and delivery notification systems.
+   
 - Although stateless by default, SOAP **can support stateful operations**, where the state is transferred between operations:
 
-- SOAP is a good choice in situations where the exchange of data between web services is composed of multiple chained operations that need to act as one.  By referring to the state of a previous operation, each service involved in exchanging data always knows how to perform without making additional calls. SOAP implements this with the help of Web Services Extension Specification (WS).
+   - SOAP is a good choice in situations where the exchange of data between web services is composed of multiple chained operations that need to act as one.  By referring to the state of a previous operation, each service involved in exchanging data always knows how to perform without making additional calls. SOAP implements this with the help of Web Services Extension Specification (WS).
 
-- Ability to establish a **formal contract** between the web service provider and its consumers with the WSDL document which defines . Having a formal contract also helps reduce misinterpretation in settings where multiple web services involved in the exchange of data are required to behave in a certain way.
+- Ability to establish a **formal contract** between the web service provider and its consumers with the WSDL document. Having a formal contract also helps reduce misinterpretation in settings where multiple web services involved in the exchange of data are required to behave in a certain way.
 
 ## SOAP example use case
 
@@ -54,16 +54,16 @@ When deciding whether to use SOAP or REST, it might be helpful to ask yourself t
 
 https://en.wikipedia.org/wiki/SOAP
 
-https://smartbear.com/blog/soap-vs-rest-whats-the-difference/#:~:text=SOAP%20(Simple%20Object%20Access%20Protocol,around%20for%20a%20long%20time.&text=REST%20(Representational%20State%20Transfer)%20is,method%20of%20accessing%20web%20services
+https://smartbear.com/blog/soap-vs-rest-whats-the-difference/
 
 https://www.soapui.org/learn/api/soap-vs-rest-api/
 
-https://www.cleo.com/blog/soap-vs-rest-which-web-service-protocol-is-better#:~:text=REST%20is%20a%20better%20choice,for%20security%2C%20addressing%2C%20etc]
+https://www.cleo.com/blog/soap-vs-rest-which-web-service-protocol-is-better/
 
-https://www.infoq.com/articles/rest-soap-when-to-use-each/#:~:text=Totally%20stateless%20operations%3B%20if%20an,operations%2C%20then%20REST%20is%20it
+https://www.infoq.com/articles/rest-soap-when-to-use-each/
 
 https://nordicapis.com/common-cases-when-using-soap-makes-sense/
 
-https://auth0.com/learn/rest-vs-soap/](https://auth0.com/learn/rest-vs-soap/
+https://auth0.com/learn/rest-vs-soap/
 
 https://www.quora.com/Why-are-bank-transactions-better-suited-to-use-SOAP-Simple-Object-Access-Protocol-rather-than-the-more-popular-REST-Representational-state-transfer
