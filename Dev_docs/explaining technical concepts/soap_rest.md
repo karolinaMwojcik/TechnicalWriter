@@ -40,7 +40,7 @@ REST is preferred over SOAP where the efficient use of bandwidth and browser sup
 
 When deciding whether to use SOAP or REST, it might be helpful to ask yourself these questions:
 
-1.  Is your API going to be called from web browsers or web apps? If yes, go for REST.
+1. Is your API going to be called from web browsers or web apps? If yes, go for REST.
 
 2. Is network connection a constraint? If yes, REST would be a better choice thanks to JSON as the messaging format, statelessness and cacheability.
 
