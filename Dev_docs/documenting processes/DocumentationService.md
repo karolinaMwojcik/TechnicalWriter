@@ -1,10 +1,20 @@
+# Table of Contents
+
+[Introduction](#introduction)
+
+[Repository](#repository)
+
+[Branches](#branches)
+
+[Pipelines and builds](#pipelines-and-builds)
+
 # Introduction
 
 This document is intended for Technical Writers at **XXX**. Documentation development in **XXX** is closely aligned with software development. Therefore, most processes regarding documentation development mirror the software development processes. Technical Writers support development teams by producing end-user documentation to the new features and enhancements, and by documenting bug fixes and known issues.
 
 The main documentation product is the *OnlineHelp* delivered as part of the application. Users access the *OnlineHelp* by clicking the Help icon located in the upper right-hand corner of each application window.
 
-The *OnlineHelp* is a set of HTML and  CSS files. 
+The *OnlineHelp* is a set of HTML.
 
 This document outlines the documentation development process. It contains information on the following aspects of that process:
 
@@ -12,7 +22,7 @@ This document outlines the documentation development process. It contains inform
 - Branches
 - Builds and pipelines
 
-# Repository structure 
+# Repository
 
 The *OnlineHelp* repository is a git reposity located under this link: xxxxxxx. It includes the following folders:
 
@@ -31,6 +41,6 @@ The OnlineHelp repository contains the following branches:
 - hotfix
 - master
 
-# Builds and pipelines
+# Pipelines and builds
 
 There are two pipelines 
