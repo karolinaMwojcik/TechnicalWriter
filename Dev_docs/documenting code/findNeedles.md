@@ -6,11 +6,9 @@ public static void findNeedles(String haystack, String[] needles)
 
 [Overview](#Overview)
 
-[Example](#Example)
-
 [Input parameters](#input-parameters)
 
-[Method constraints] (#method-constraints)
+[Method constraints](#method-constraints)
 
 
 # Code to describe
