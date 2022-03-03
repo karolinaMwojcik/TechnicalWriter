@@ -10,11 +10,13 @@
 
 # Introduction
 
-This document is intended for Technical Writers at **XXX**. Documentation development in **XXX** is closely aligned with software development. Therefore, most processes regarding documentation development mirror the software development processes. Technical Writers support development teams by producing end-user documentation to the new features and enhancements, and by documenting bug fixes and known issues.
+This document is intended for Technical Writers at **XXX**. Technical Writers support development teams by producing end-user documentation to the new features and enhancements, and by documenting bug fixes and known issues.
+
+Documentation development in **XXX** is closely aligned with software development. Therefore, most processes regarding documentation development mirror the software development processes. 
 
 The main documentation product is the *OnlineHelp* delivered as part of the application. Users access the *OnlineHelp* by clicking the Help icon located in the upper right-hand corner of each application window.
 
-The *OnlineHelp* is a set of HTML.
+The *OnlineHelp* is a set of HTML files.
 
 This document outlines the documentation development process. It contains information on the following aspects of that process:
 
@@ -36,8 +38,8 @@ The *OnlineHelp* repository is a git reposity located under this link: xxxxxxx. 
 The OnlineHelp repository contains the following branches:
 
 - **feature branches** - Branches created by each Technical Writer to store their work in progress.
-- **dev** - Branch used during the development phase. When a Technical Writer has finished working on  their documentation task, they create a pull request to this branch so that their work is included in the OnlineHelp available in the test environments. No direct pushes are allowed to this branch.
-- **release** - Branch used during the final phase, when the development of new features and ehnacements has finished.
+- **dev** - Branch used during the development phase. When a Technical Writer has finished working on their documentation task, they create a pull request to this branch so that their work is included in the OnlineHelp available in the test environments. No direct pushes are allowed to this branch.
+- **release** - Branch used during the final phase, when the development of new features and ehnacements has finished, but bugs 
 - hotfix
 - master
 
