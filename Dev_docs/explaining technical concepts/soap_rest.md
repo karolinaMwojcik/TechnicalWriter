@@ -3,11 +3,11 @@
 
 [SOAP overview](#SOAP-overview)
 
-[SOAP example use case](#soap-example-use-case)
+- [SOAP example use case](#soap-example-use-case)
 	
 [REST overview](#REST-overview)
 
-[REST example use case](#rest-example-use-case)
+- [REST example use case](#rest-example-use-case)
 	
 [Summary](#Summary)
 
